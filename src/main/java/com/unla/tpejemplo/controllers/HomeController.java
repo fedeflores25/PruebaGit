@@ -11,10 +11,12 @@ import com.unla.tpejemplo.hellpers.ViewRouteHelper;
 @RequestMapping("/")
 public class HomeController {
 
+	
 	@GetMapping("/index")
 		public String index() {
 			return ViewRouteHelper.INDEX;
 		}
+	//redirecciono siempre al index
 	@GetMapping("/")
 	public RedirectView redirecToHomeIndex() {
 		return new RedirectView(ViewRouteHelper.ROUTE_INDEX);
