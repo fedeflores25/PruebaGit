@@ -1,0 +1,11 @@
+<form action="#" th:action="@{newdegree}" th:object="${degree}" method="post">
+  <p> Name: <input type="text" th:field="*{name}" /></p>
+
+  <p> Institution: <input type="text" th:field="*{Institution}" /></p>
+<p th:if="${#fields.hasErrors('institution')}" th:errors="*{institution}">Institution tiene errores</p>
+
+  <p> Year: <input type="text" th:field="*{year}" /></p>
+  <p th:if="${#fields.hasErrors('year')}" th:errors="*{year}">Year tiene errores</p>
+  <p></p>
+  <input type="submit" />
+  </form>
