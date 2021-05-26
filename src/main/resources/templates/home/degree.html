@@ -6,6 +6,5 @@
 
   <p> Year: <input type="text" th:field="*{year}" /></p>
   <p th:if="${#fields.hasErrors('year')}" th:errors="*{year}">Year tiene errores</p>
-  <p></p>
-  <input type="submit" />
+    <input type="submit" />
   </form>

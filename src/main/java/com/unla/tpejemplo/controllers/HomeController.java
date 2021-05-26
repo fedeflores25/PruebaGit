@@ -15,7 +15,7 @@ import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.view.RedirectView;
 
 import com.unla.tpejemplo.hellpers.ViewRouteHelper;
-import com.unla.tpejemplo.models.Degree;
+import com.unla.tpejemplo.models.DegreeModel;
 
 @Controller
 @RequestMapping("/")
@@ -56,7 +56,7 @@ public class HomeController {
 	
 	@GetMapping("/degree")
 	public String degree(Model model) {
-		model.addAttribute("degree", new Degree());
+		model.addAttribute("degree", new DegreeModel());
 		return ViewRouteHelper.DEGREE;
 	}
 	
@@ -66,7 +66,7 @@ public class HomeController {
 	//De esta manera dentro del codigo se puede hacer un If con el metodo hasErrors de tipo boolean para identificar errores
 	//para finalizar se tiene que usar el th en la vista
 	@PostMapping("/newdegree")
-	public ModelAndView newdegree(@Valid @ModelAttribute("degree") Degree degree, BindingResult bindingResult ) {
+	public ModelAndView newdegree(@Valid @ModelAttribute("degree") DegreeModel degree, BindingResult bindingResult ) {
 		ModelAndView mV = new ModelAndView();
 		if(bindingResult.hasErrors()) {
 		mV.setViewName(ViewRouteHelper.DEGREE);

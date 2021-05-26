@@ -3,7 +3,7 @@ package com.unla.tpejemplo.models;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.Size;
 
-public class Degree {
+public class DegreeModel {
 	private int id;
 	private String name;
 	
@@ -14,8 +14,8 @@ public class Degree {
 	private int year;
 	
 	//constructor
-	public Degree() {}
-	public Degree(int id, String name, String institution, int year) {
+	public DegreeModel() {}
+	public DegreeModel(int id, String name, String institution, int year) {
 		this.id = id;
 		this.name = name;
 		this.institution = institution;
@@ -60,7 +60,7 @@ public class Degree {
 	}
 	@Override
 	public boolean equals(Object obj) {
-		return ((Degree)obj).getId() == this.getId();
+		return ((DegreeModel)obj).getId() == this.getId();
 	}
 	
 	
