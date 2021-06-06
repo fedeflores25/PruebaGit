@@ -10,9 +10,13 @@ public class ViewRouteHelper {
 	
 	public final static String DEGREE_INDEX = "degree/index";
 	
+	public final static String USER_LOGIN = "user/login";
+	public final static String USER_LOGOUT = "user/logout";
 	//redirecciones
 	public final static String ROUTE_INDEX = "/index";
 	public final static  String DEGREE_ROOT = "/degrees/";
+
+	
 	
 	
 	

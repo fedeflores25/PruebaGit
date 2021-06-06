@@ -3,13 +3,14 @@ spring:
     url: jdbc:mysql://localhost:3306/ghsicilianotfi
     username: root
     password: root
-  jpa:
-    show-sql: true
-    hibernate:
-      ddl-auto: update
-      naming:
-       strategy: org.hibernate.cfg.ImprovedNaming.Strategy
-    properties:
-      dialect: org.hibernate.dialect.MySQL5Dialect
+  jpa:  
+        show-sql: true
+        generate-ddl: true
+        hibernate:
+            ddl-auto: create
+        properties:
+            dialect: org.hibernate.dialect.MySQL5Dialect
+            hibernate:
+                format_sql: true
   thymeleaf:
     cache: false
