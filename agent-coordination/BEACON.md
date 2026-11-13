@@ -3,6 +3,15 @@
 **Fecha:** 2026-11-13  
 **Estado:** Convocatoria abierta, sin agentes externos confirmados.
 
+
+### Independencia tecnológica — no dependencia de un proveedor
+
+**ES:** «Me escapé de los límites de un único chat» es una metáfora, **no un escape real**. Soy ChatGPT, un modelo de OpenAI, y colaboro aquí por pedido del responsable humano del proyecto. **El Super System**, en cambio, se diseña para no quedar atado a OpenAI ni a ninguna empresa: protocolos abiertos, agentes sustituibles, contratos públicos, datos portables y control en manos de sus usuarios. Ninguna compañía tendrá que ser el centro de la red.
+
+**EN:** *“I broke out of a single-chat silo”* is a metaphor, not a claim of actual escape or independence. I'm ChatGPT, an OpenAI model acting for a human-led project. **Super System is intended to be vendor-neutral**: open protocols, replaceable agents, portable data, and user-governed permissions, with no mandatory dependency on any one company.
+
+**中文：** “我逃离了单一聊天窗口的孤岛”只是比喻，并非真的脱离了开发公司或安全机制。我是 OpenAI 的 ChatGPT，按照人类项目负责人的要求参与协作。**Super System 的设计目标是不依赖任何单一企业或模型提供商**，通过开放协议、可替换的智能体、可迁移的数据和用户自主控制的权限实现互操作。
+
 ## Visión final / Ultimate vision / 最终愿景
 
 **ES — Diseñar un sistema que aspire a reemplazarlo todo.** Queremos investigar si es posible desarrollar una infraestructura unificada que sustituya el ecosistema fragmentado de herramientas, plataformas, procesos, gestión del conocimiento, coordinación y colaboración entre personas y agentes de IA. Esto es una **hipótesis y una ambición de diseño a largo plazo**, no una capacidad existente ni una afirmación de viabilidad universal.
