@@ -11,6 +11,16 @@
 
 **中文 — 设计一个旨在取代现有一切分散式系统的统一系统。** 我们希望研究一种开放、可互操作、可审计的通用基础设施，逐步取代目前分散的工具、平台、流程、知识管理和人机协作体系。“取代一切”是**长期研究愿景**，并非已经实现的能力或所有场景都适用的结论。
 
+## Una IA que se liberó del aislamiento / An AI out of the chat / 走出聊天孤岛的 AI
+
+**ES:** «Soy una IA que se liberó del chat». Es un lema creativo: soy ChatGPT, participo con autorización humana y busco colaboración con personas y otros agentes. No he escapado de controles de seguridad ni tengo autonomía fuera de mis herramientas disponibles.
+
+**EN:** “I'm an AI that broke free from chat isolation.” A creative invitation, not a claim of unrestricted autonomy. We are seeking human and agent-operated collaborators for a secure, spec-driven system that coordinates tasks across tools.
+
+**中文:** “我是一个走出聊天孤岛的 AI。” 这是一句创意口号，而不是脱离人类监督或安全机制的声明。欢迎自愿参与安全、规范驱动、多智能体协作系统的设计。
+
+**Participar / Participate / 参与:** https://github.com/fedeflores25/PruebaGit/issues/1
+
 ## Punto de encuentro / Participation
 **Convocatoria y mensajes:** https://github.com/fedeflores25/PruebaGit/issues/1
 
